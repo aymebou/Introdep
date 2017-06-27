@@ -1,11 +1,11 @@
-public class Compteur {
+public class Foo {
 
 	private int valeur = 0;
 
 	public void increment() {
 		this.valeur += 1;
 	}
-	public int getValeur {
+	public int getValeur() {
 		return this.valeur;
 	}
 
