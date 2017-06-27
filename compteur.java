@@ -20,8 +20,8 @@ public class Compteur {
 
 public class Main {
 
-	public static void main(String[] args) { 	//void: on retourne rien. 
-	
+	public static void main(String[] args) { 	//void: on retourne rien. Permets un appel direct de la fonction, 
+							//static : la fonction n'est rattachée à rien
 	for(int i = 0; i < args.length ; i++) {
 		System.out.println("args[" + i + "] = " + args[i]);
 	}
@@ -42,4 +42,6 @@ heritage: un cheval est un animal. les objets d'une certaines classe sont des ob
 final: personne ne peut modifier
 
 */
+
+// On fait attention à la syntaxe (;,{}) sinon java pas content
 
