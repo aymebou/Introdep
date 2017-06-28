@@ -1,19 +1,25 @@
 public class Point {
- public deplacer(int dx int dy) {
 
 
+ private int x;
+ private int y;
+
+public Point() {
+this.x = 0;
+this.y = 0;}
+
+ public int getX(){
+   return this.x;
  }
- /* Calcule la distance du pt pr a l'origine */
-  float distance() {
-    
+ public int getY(){
+   return this.y; }
+ public String versChaine() {
+  return "(" + this.x + "," + this.y + ")";
+}
 
-  }
-
-  /* Calcule la distance du pt pr a un autre pt */
-  float distance (Point autre point) {
-
-
-  }
-
+ public void deplacer(int dx, int dy) {
+  this.x = dx;
+  this.y = dy;
+ }
 
 }
